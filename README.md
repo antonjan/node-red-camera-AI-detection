@@ -12,13 +12,17 @@ You will the have to add the username and password of your camera as in exsample
     
 Edit the exec node and add the following "ffmpeg  -y -i "rtsp://username:password@192.168.0.2:554/onvif1" -vframes 1  /home/pi/2.jpg"
 In front
+
       ffmpeg  -y -i 
+      
 At the end 
+
       -vframes 1  /home/pi/2.jpg
+      
 then save
 
-This will go and get an image from the camera and save it to a file home/pi/2.jpg
-Make sure that the file in node has the same path to the file 
-The file in node will send the image to the AI (tf coco SSD)
-The rest of the nodes is starte forword.
+This will go and get an image from the camera and save it to a file home/pi/2.jpg<br>
+Make sure that the file in node has the same path to the file <br>
+The file in node will send the image to the AI (tf coco SSD)<br>
+The rest of the nodes is starte forword.<br>
 
