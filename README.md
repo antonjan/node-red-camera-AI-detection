@@ -10,7 +10,7 @@ Add camera and enter its ip address it will then find the streaming string EG. r
 You will the have to add the username and password of your camera as in exsample above and add the string to the exec node
     rtsp://username:password@192.168.0.2:554/onvif1
     
-Edit the exec node and add the following "ffmpeg  -y -i "rtsp://username:password@192.168.0.2:554/onvif1" -vframes 1  /home/pi/2.jpg"
+Edit the exec node and add the following "ffmpeg  -y -i "rtsp://username:password@192.168.0.2:554/onvif1" -vframes 1  /home/pi/2.jpg"<br>
 In front
 
       ffmpeg  -y -i 
