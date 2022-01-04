@@ -33,7 +33,7 @@ This will go and get an image from the camera and save it to a file home/pi/2.jp
 Make sure that the file in node has the same path to the file <br>
 The file in node will send the image to the AI (tf coco SSD)<br>
 The rest of the nodes is strate forword.<br>
-## Some setiings you can play with
+## Some settings you can play with
 You need to play around with the <b>sThreshold > 0.6</b> setting in the function node if you get false readings (depends on your camera conditions)<br>
 System takes images every 8s due to the GPU constrans in Rapberry pi you can play around with the timer in the inject node or you can make it loop when it is finshed
 
