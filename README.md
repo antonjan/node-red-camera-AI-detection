@@ -37,3 +37,5 @@ The rest of the nodes is strate forword.<br>
 You need to play around with the <b>sThreshold > 0.6</b> setting in the function node if you get false readings (depends on your camera conditions)<br>
 System takes images every 8s due to the GPU constrans in Rapberry pi you can play around with the timer in the inject node or you can make it loop when it is finshed
 
+## Exsample of telegram message
+![Telegram message](ai_person_detect.png?raw=true "Telegram message")<br>
